@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 </head>
 
@@ -12,7 +13,7 @@
 
   <header>
     <div class="logo">
-      <h2>Ivan Project</h2>
+      <img src="img/logo.png" alt="ivn project logo">
     </div>
     <nav>
       <ul>
@@ -31,19 +32,57 @@
     </div>
   </header>
 
-  <section class="hero">
+  <section id="hero" class="hero">
     <div class="swiper">
       <div class="swiper-wrapper">
+
         <div class="swiper-slide bg-img1">
           <div class="container">
-            <div>
-              <h1>Momen-momen tak ternilai dalam setiap jepretan. Jadikan hidupmu sebagai galeri pribadi.</h1>
+            <div class="hero-txt">
+              <h1>Momen tak ternilai dalam setiap <span class="red-txt">jepretan</span>. Jadikan hidupmu sebagai <span
+                  class="red-txt">galeri</span>. <span class="watermark">by ivn project</span>
+              </h1>
             </div>
 
+            <div class="hero-btn">
+              <a href="#"><button class="more">More About Me</button></a>
+              <a href="#"><button class="order"><i class="fab fa-whatsapp"></i></button></a>
+            </div>
           </div>
         </div>
-        <div class="swiper-slide bg-img2"></div>
-        <div class="swiper-slide bg-img3"></div>
+
+        <div class="swiper-slide bg-img2">
+          <div class="container">
+            <div class="hero-txt">
+              <h1>Jangan biarkan waktu merampas <span class="red-txt">momen</span>. Jadikan setiap klik sebagai <span
+                  class="red-txt">kenangan</span> yang abadi. <span class="watermark">by ivn project</span>
+              </h1>
+            </div>
+
+            <div class="hero-btn">
+              <a href="#"><button class="more">More About Me</button></a>
+              <a href="#"><button class="order"><i class="fab fa-whatsapp"></i></button></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide bg-img3">
+          <div class="container">
+            <div class="hero-txt">
+              <h1>Setiap <span class="red-txt">gambar</span> adalah sebuah cerita. Biarkan ceritamu diceritakan melalui
+                <span class="red-txt">lensa kamera</span>. <span class="watermark">by ivn project</span>
+              </h1>
+            </div>
+
+            <div class="hero-btn">
+              <a href="#"><button class="more">More About Me</button></a>
+              <a href="#"><button class="order"><i class="fab fa-whatsapp"></i></button></a>
+            </div>
+          </div>
+        </div>
+
+
+
       </div>
       <div class="swiper-pagination"></div>
     </div>

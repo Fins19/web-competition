@@ -1,3 +1,4 @@
+// fixed blur navbar
 window.onscroll = function () {
     const header = document.querySelector('header');
     const fixedNav = header.offsetTop;
@@ -14,6 +15,7 @@ window.onscroll = function () {
     }
 }
 
+// hamburger menu
 const menuToggle = document.querySelector('.menu-toggle input');
 const nav = document.querySelector('nav ul');
 
@@ -21,13 +23,12 @@ menuToggle.addEventListener('click', function () {
     nav.classList.toggle('slide');
 });
 
+// initialized swiper js
 const swiper = new Swiper('.swiper', {
-    // Optional parameters
     direction: 'horizontal',
     loop: true,
     autoplay: true,
 
-    // If we need pagination
     pagination: {
         el: '.swiper-pagination',
     },
